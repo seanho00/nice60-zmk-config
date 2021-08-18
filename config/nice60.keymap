@@ -60,7 +60,7 @@
 
  		app_layer {
 			bindings = <
-	&kp C_SLEEP t___ t___ t___ t___ t___ t___ t___ t___ t___ &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_A_LOCK
+	&kp C_SLEEP t___ t___ t___ t___ t___ t___ t___ t___ t___ &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_LOCK
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
@@ -70,7 +70,7 @@
 
  		kbd_layer {
 			bindings = <
-	&bt BTCLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 t___ t___ t___ t___ t___ t___ t___ t___ &reset
+	&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 t___ t___ t___ t___ t___ t___ t___ t___ &reset
 	&out OUT_BLE t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &bootloader
 	&out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
