@@ -21,13 +21,13 @@
 / {
 	combos {
 		compatible = "zmk,combos";
-		combo_grave = {
+		combo_grave {
 			timeout-ms = <50>;
 			key-positions = <0 1>;
 			layers = <0>;
 			bindings = <&kp; GRAVE>
 		};
-		combo_kbd_layer = {
+		combo_kbd_layer {
 			timeout-ms = <50>;
 			key-positions = <59 60>;
 			layers = <0>;
