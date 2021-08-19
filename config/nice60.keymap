@@ -63,7 +63,7 @@
 		nav_layer {
 			bindings = <
 	t___ &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
-	t___ t___ t___ t___ t___ t___ &kp K_UNDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_REDO t___ t___ t___
+	t___ t___ t___ t___ t___ t___ &kp C_AC_UNDO &kp C_AC_PASTE &kp C_AC_COPY &kp C_AC_CUT &kp C_AC_REDO t___ t___ t___
 	t___ t___ t___ t___ t___ t___ &kp LEFT &kp DOWN &kp UP &kp RIGHT t___ t___ t___
 	t___ t___ t___ t___ t___ t___ &kp HOME &kp PG_DN &kp PG_UP &kp END t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___
