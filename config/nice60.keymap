@@ -62,10 +62,10 @@
 
 		nav_layer {
 			bindings = <
-	t___ &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 t___
-	t___ t___ t___ t___ t___ t___ &kp HOME &kp PG_DN &kp PG_UP &kp END t___ t___ t___ t___
+	t___ &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
+	t___ t___ t___ t___ t___ t___ &kp K_UNDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_REDO t___ t___ t___
 	t___ t___ t___ t___ t___ t___ &kp LEFT &kp DOWN &kp UP &kp RIGHT t___ t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ t___ t___ t___ t___ t___ &kp HOME &kp PG_DN &kp PG_UP &kp END t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___
 			>;
 		};
@@ -73,16 +73,16 @@
  		app_layer {
 			bindings = <
 	&kp C_SLEEP t___ t___ t___ t___ t___ t___ t___ t___ t___ &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_LOCK
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &kp C_AC_ZOOM &kp C_AC_ZOOM_IN &kp C_AC_ZOOM_OUT t___
+	t___ t___ t___ t___ t___ t___ &kp C_PREV &kp C_STOP &kp C_EJECT &kp C_NEXT t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___ 
+	&kp SYREQ t___ t___ &kp C_PP &kp C_REC t___ t___ t___ 
 			>;
 		};
 
  		kbd_layer {
 			bindings = <
-	&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 t___ t___ t___ t___ t___ t___ t___ t___ &reset
+	&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ t___ &reset
 	&out OUT_BLE t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &bootloader
 	&out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
