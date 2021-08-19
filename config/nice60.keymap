@@ -76,7 +76,7 @@
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &kp C_AC_ZOOM &kp C_AC_ZOOM_IN &kp C_AC_ZOOM_OUT t___
 	t___ t___ t___ t___ t___ t___ &kp C_PREV &kp C_STOP &kp C_EJECT &kp C_NEXT t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
-	&kp SYREQ t___ t___ &kp C_PP &kp C_REC t___ t___ t___ 
+	&kp SYSREQ t___ t___ &kp C_PP &kp C_REC t___ t___ t___ 
 			>;
 		};
 
