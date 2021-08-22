@@ -18,6 +18,18 @@
 #define APP_L 2
 #define KBD_L 3
 
+// Layer behaviours:
+// &mo <LAYER>
+// &lt <LAYER> <KEY>
+// &to <LAYER>
+// &tog <LAYER>
+// Hold-Tap behaviours:
+// &mt <KEY> <KEY>: mod-tap
+// &hm <KEY> <KEY>: homerow mods
+// Mod-Morph
+// &sk <KEY>
+// &sl <LAYER>
+
 / {
 	behaviors {
 		hm: homerow_mods {
@@ -79,7 +91,7 @@
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	&kp SYSREQ t___ t___ &kp C_PP &kp C_REC t___ t___ t___ 
 			>;
-		}
+		};
 
  		kbd_layer {
 			bindings = <
