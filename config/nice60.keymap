@@ -14,11 +14,11 @@
 
 #define t___ &trans
 #define DEF_L 0
-#define NAV_L 1
-#define APP_L 2
-#define KBD_L 3
-#define NOH_L 4
-#define LCK_L 5
+#define NOH_L 1
+#define NAV_L 2
+#define APP_L 3
+#define LCK_L 4
+#define KBD_L 5
 
 // Layer behaviours:
 // &mo <LAYER>
@@ -75,6 +75,16 @@
 			>;
 		};
 
+ 		nohrm_layer {
+			bindings = <
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI t___ t___
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ t___ t___ t___ t___ t___ t___ t___
+			>;
+		};
+
 		nav_layer {
 			bindings = <
 	t___ &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
@@ -95,26 +105,6 @@
 			>;
 		};
 
- 		kbd_layer {
-			bindings = <
-	&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog LCK_L &reset
-	&out OUT_BLE t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &bootloader
-	&out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &tog NOH_L
-	t___ t___ t___ t___ t___ t___ t___ t___
-			>;
-		};
-
- 		nohrm_layer {
-			bindings = <
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
-	t___ &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___
-			>;
-		};
-
  		lock_layer {
 			bindings = <
 	&none &none &none &none &none &none &none &none &none &none &none &none &none &none
@@ -122,6 +112,16 @@
 	&none &none &none &none &none &none &none &none &none &none &none &none &none
 	&none &none &none &none &none &none &none &none &none &none &none &none
 	&none &none &none &none &none &none &none &none
+			>;
+		};
+
+ 		kbd_layer {
+			bindings = <
+	&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog LCK_L &reset
+	&out OUT_BLE t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &bootloader
+	&out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &tog NOH_L
+	t___ t___ t___ t___ t___ t___ t___ t___
 			>;
 		};
 
@@ -140,9 +140,9 @@
 
 #undef t___
 #undef DEF_L
+#undef NOH_L
 #undef NAV_L
 #undef APP_L
-#undef KBD_L
-#undef NOH_L
 #undef LCK_L
+#undef KBD_L
 
