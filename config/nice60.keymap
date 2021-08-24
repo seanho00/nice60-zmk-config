@@ -57,7 +57,7 @@
 		combo_kbd_layer {
 			timeout-ms = <50>;
 			key-positions = <59 60>; // last two keys
-			layers = <0>;
+			layers = <DEF_L LCK_L>;
 			bindings = <&mo KBD_L>;
 		};
 	};
@@ -117,10 +117,10 @@
 
  		kbd_layer {
 			bindings = <
-	&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog LCK_L &reset
-	&out OUT_BLE t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &bootloader
-	&out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ &tog NOH_L
+	&reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog NOH_L &tog LCK_L
+	&bootloader &bt BT_CLR &out OUT_BLE &out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___
 			>;
 		};
