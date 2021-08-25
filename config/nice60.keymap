@@ -57,7 +57,6 @@
 		combo_kbd_layer {
 			timeout-ms = <50>;
 			key-positions = <59 60>; // last two keys
-			layers = <DEF_L LCK_L>;
 			bindings = <&mo KBD_L>;
 		};
 	};
