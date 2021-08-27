@@ -29,8 +29,8 @@
 #define NOH_L 1
 #define NAV_L 2
 #define APP_L 3
-#define LCK_L 4
-#define KBD_L 5
+#define KBD_L 4
+#define LCK_L 5
 
 / {
 	behaviors {
@@ -93,6 +93,16 @@
 			>;
 		};
 
+ 		kbd_layer {
+			bindings = <
+	&reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog NOH_L t___
+	&bootloader &bt BT_CLR &out OUT_BLE &out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
+	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ t___ t___ t___ t___ t___ t___ t___
+			>;
+		};
+
  		lock_layer {
 			bindings = <
 	&none &none &none &none &none &none &none &none &none &none &none &none &none &none
@@ -100,16 +110,6 @@
 	&none &none &none &none &none &none &none &none &none &none &none &none &none
 	&none &none &none &none &none &none &none &none &none &none &none &none
 	&none &none &none &none &none &none &none &none
-			>;
-		};
-
- 		kbd_layer {
-			bindings = <
-	&reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog NOH_L &tog LCK_L
-	&bootloader &bt BT_CLR &out OUT_BLE &out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___
 			>;
 		};
 
@@ -131,6 +131,6 @@
 #undef NOH_L
 #undef NAV_L
 #undef APP_L
-#undef LCK_L
 #undef KBD_L
+#undef LCK_L
 
