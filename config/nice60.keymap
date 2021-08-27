@@ -12,14 +12,6 @@
 #include <dt-bindings/zmk/reset.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-#define t___ &trans
-#define DEF_L 0
-#define NOH_L 1
-#define NAV_L 2
-#define APP_L 3
-#define LCK_L 4
-#define KBD_L 5
-
 // Layer behaviours:
 // &mo <LAYER>
 // &lt <LAYER> <KEY>
@@ -31,6 +23,14 @@
 // Mod-Morph
 // &sk <KEY>
 // &sl <LAYER>
+
+#define t___ &trans
+#define DEF_L 0
+#define NOH_L 1
+#define NAV_L 2
+#define APP_L 3
+#define LCK_L 4
+#define KBD_L 5
 
 / {
 	behaviors {
@@ -47,18 +47,7 @@
 	};
 
 	combos {
-		compatible = "zmk,combos";
-		combo_grave {
-			timeout-ms = <50>;
-			key-positions = <0 1>;
-			layers = <0>;
-			bindings = <&kp GRAVE>;
-		};
-		combo_kbd_layer {
-			timeout-ms = <50>;
-			key-positions = <59 60>; // last two keys
-			bindings = <&mo KBD_L>;
-		};
+#include "nice60.combos"
 	};
 
 	keymap {
