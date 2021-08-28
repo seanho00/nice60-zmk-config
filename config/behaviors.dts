@@ -1,0 +1,11 @@
+hm: homerow_mods {
+	compatible = "zmk,behavior-hold-tap";
+	label = "HOMEROW_MODS";
+	#binding-cells = <2>;
+	flavor = "tap-preferred";
+	tapping-term-ms = <200>;
+	quick_tap_ms = <100>;
+	retro-tap;
+	bindings = <&kp>, <&kp>;
+};
+
