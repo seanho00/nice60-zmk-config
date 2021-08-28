@@ -54,6 +54,7 @@
 		compatible = "zmk,keymap";
 		
 		default_layer {
+			label = "Base";
 			bindings = <
 	&kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BSPC
 	&kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT &kp BSLH
@@ -64,6 +65,7 @@
 		};
 
  		nohrm_layer {
+			label = "NoHRM";
 			bindings = <
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
@@ -74,6 +76,7 @@
 		};
 
 		nav_layer {
+			label = "Nav";
 			bindings = <
 	t___ &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
 	t___ t___ t___ t___ t___ t___ &kp C_AC_UNDO &kp C_AC_PASTE &kp C_AC_COPY &kp C_AC_CUT &kp C_AC_REDO t___ t___ t___
@@ -84,6 +87,7 @@
 		};
 
  		app_layer {
+			label = "App";
 			bindings = <
 	&kp C_SLEEP t___ t___ t___ t___ t___ t___ t___ t___ t___ &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_LOCK
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ 
@@ -94,6 +98,7 @@
 		};
 
  		kbd_layer {
+			label = "Kbd";
 			bindings = <
 	&reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog NOH_L t___
 	&bootloader &bt BT_CLR &out OUT_BLE &out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
@@ -104,6 +109,7 @@
 		};
 
  		lock_layer {
+			label = "Lock";
 			bindings = <
 	&none &none &none &none &none &none &none &none &none &none &none &none &none &none
 	&none &none &none &none &none &none &none &none &none &none &none &none &none &none
@@ -114,6 +120,7 @@
 		};
 
  		sample_layer {
+			label = "Empty";
 			bindings = <
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
