@@ -35,15 +35,15 @@
 
 / {
 	behaviors {
-#include "config/behaviors.dts"
+#include "behaviors.dtsi"
 	};
 
 	combos {
-#include "config/combos.dts"
+#include "combos.dtsi"
 	};
 
 	keymap {
-#include "config/keymap.dts"
+#include "keymap.dtsi"
 	};
 };
 
