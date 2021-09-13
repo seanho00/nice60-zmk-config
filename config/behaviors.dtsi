@@ -3,9 +3,8 @@ hm: homerow_mods {
 	label = "HOMEROW_MODS";
 	#binding-cells = <2>;
 	flavor = "tap-preferred";
-	tapping-term-ms = <200>;
+	tapping-term-ms = <160>;
 	quick_tap_ms = <100>;
-	retro-tap;
 	bindings = <&kp>, <&kp>;
 };
 
