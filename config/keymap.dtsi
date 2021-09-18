@@ -11,13 +11,13 @@ default_layer {
 	>;
 };
 
-nohrm_layer {
-	label = "NoHRM";
+lohrm_layer {
+	label = "LoHRM";
 	bindings = <
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI t___ t___
-	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
+	t___ &hm LGUI Z &hm LALT X &hm LSHFT C &hm LCTRL t___ t___ &hm RCTRL M &hm RSHFT COMMA &hm RALT DOT &hm RGUI FSLH t___
 	t___ t___ t___ t___ t___ t___ t___ t___
 	>;
 };
@@ -58,7 +58,7 @@ app_layer {
 kbd_layer {
 	label = "Kbd";
 	bindings = <
-	&reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog NOH_L t___
+	&reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog LOH_L t___
 	&bootloader &bt BT_CLR &out OUT_BLE &out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &rgb_ug RGB_EFF t___ t___ t___ t___ t___ t___ t___ 
 	&rgb_ug RGB_TOG &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &rgb_ug RGB_EFR &rgb_ug RGB_COLOR_HSB(0, 0, 100) t___ t___ t___ t___ t___
