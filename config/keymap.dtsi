@@ -17,7 +17,7 @@ lohrm_layer {
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	t___ &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI t___ t___
-	t___ &hm LGUI Z &hm LALT X &hm LSHFT C &hm LCTRL t___ t___ &hm RCTRL M &hm RSHFT COMMA &hm RALT DOT &hm RGUI FSLH t___
+	t___ &hm LGUI Z &hm LALT X &hm LSHFT C &hm LCTRL V t___ t___ &hm RCTRL M &hm RSHFT COMMA &hm RALT DOT &hm RGUI FSLH t___
 	t___ t___ t___ t___ t___ t___ t___ t___
 	>;
 };
