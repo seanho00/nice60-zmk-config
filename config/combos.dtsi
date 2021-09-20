@@ -15,8 +15,8 @@ compatible = "zmk,combos";
 // 41      42  43  44  45  46  47  48  49  50  51        52
 // 53   54   55             56            57   58   59   60
 
-COMBO(grave, &kp GRAVE, 0 1, DEF_L);
+COMBO(grave, &kp GRAVE, 0 1, DEF_L LOH_L);
 COMBO(kbd_l, &mo KBD_L, 59 60, DEF_L LOH_L NAV_L NUM_L);
-COMBO(lock, &tog LCK_L, 53 54 13, DEF_L LCK_L);
+COMBO(lock, &tog LCK_L, 53 54 13, DEF_L LOH_L LCK_L);
 
 #undef COMBOS
