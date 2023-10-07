@@ -58,7 +58,7 @@ app_layer {
 kbd_layer {
 	label = "Kbd";
 	bindings = <
-	&reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog NOH_L t___
+	&sys_reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 t___ t___ t___ t___ t___ t___ &tog NOH_L t___
 	&bootloader &bt BT_CLR &out OUT_BLE &out OUT_USB t___ t___ t___ t___ t___ t___ t___ t___ t___ t___
 	&none &none &none &none &none &none &none &none &none &none &none &none &none
 	&none &none &none &none &none &none &none &none &none &none &none &none
